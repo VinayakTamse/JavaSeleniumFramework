@@ -35,7 +35,8 @@ public class BaseTest {
 			props.setProperty("browser", browsername);
 			props.setProperty("url", appurl);
 		}
-		System.out.println(appurl);
+		System.out.println("App Name : "+appurl);
+		System.out.println("Browser Name : "+browsername);
 		driver = browserfactory.launchBrowser(props.getProperty("browser"), props.getProperty("url"));
 		loginpage = new LoginPage(driver);
 	}
