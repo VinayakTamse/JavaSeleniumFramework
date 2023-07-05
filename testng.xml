@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="seleniumjavaframework.base.Reporting"></listener>
+	</listeners>
+	<parameter name="browser" value="${browser}"></parameter>
+	<parameter name="url" value="${url}"></parameter>
+	<test thread-count="1" name="Test" preserve-order="true" parallel="false">
+		<classes>
+			<class name="seleniumjavaframework.testcases.LoginTest" />
+			<class name="seleniumjavaframework.testcases.AdminTest" />
+			<class name="seleniumjavaframework.testcases.DeleteUserTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

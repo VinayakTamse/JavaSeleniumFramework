@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-04T18:03:20 IST" name="Suite" finished-at="2023-07-04T18:04:47 IST" duration-ms="86954">
+    <groups>
+    </groups>
+    <test started-at="2023-07-04T18:03:20 IST" name="Test" finished-at="2023-07-04T18:04:47 IST" duration-ms="86954">
+      <class name="seleniumjavaframework.testcases.DeleteUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:seleniumjavaframework.testcases.DeleteUserTest@6e6f2380]" started-at="2023-07-04T18:04:11 IST" name="setUp" finished-at="2023-07-04T18:04:23 IST" duration-ms="11384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DeleteUser_Test()[pri:0, instance:seleniumjavaframework.testcases.DeleteUserTest@6e6f2380]" started-at="2023-07-04T18:04:23 IST" name="DeleteUser_Test" finished-at="2023-07-04T18:04:47 IST" duration-ms="23834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUser_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumjavaframework.testcases.DeleteUserTest@6e6f2380]" started-at="2023-07-04T18:04:47 IST" name="tearDown" finished-at="2023-07-04T18:04:47 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumjavaframework.testcases.DeleteUserTest -->
+      <class name="seleniumjavaframework.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:seleniumjavaframework.testcases.LoginTest@26d9b808]" started-at="2023-07-04T18:03:21 IST" name="setUp" finished-at="2023-07-04T18:03:29 IST" duration-ms="7716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_Url_Test()[pri:1, instance:seleniumjavaframework.testcases.LoginTest@26d9b808]" started-at="2023-07-04T18:03:29 IST" name="Verify_Url_Test" finished-at="2023-07-04T18:03:29 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url_Test -->
+        <test-method signature="Verify_Title_Test()[pri:2, instance:seleniumjavaframework.testcases.LoginTest@26d9b808]" started-at="2023-07-04T18:03:29 IST" name="Verify_Title_Test" finished-at="2023-07-04T18:03:29 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Title_Test -->
+        <test-method signature="Login_Logout_Test()[pri:3, instance:seleniumjavaframework.testcases.LoginTest@26d9b808]" started-at="2023-07-04T18:03:29 IST" name="Login_Logout_Test" finished-at="2023-07-04T18:03:39 IST" duration-ms="10555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Logout_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumjavaframework.testcases.LoginTest@26d9b808]" started-at="2023-07-04T18:03:39 IST" name="tearDown" finished-at="2023-07-04T18:03:39 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumjavaframework.testcases.LoginTest -->
+      <class name="seleniumjavaframework.testcases.AdminTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:seleniumjavaframework.testcases.AdminTest@6892b3b6]" started-at="2023-07-04T18:03:39 IST" name="setUp" finished-at="2023-07-04T18:03:49 IST" duration-ms="9755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Admin_Test()[pri:0, instance:seleniumjavaframework.testcases.AdminTest@6892b3b6]" started-at="2023-07-04T18:03:49 IST" name="Admin_Test" finished-at="2023-07-04T18:04:11 IST" duration-ms="21869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumjavaframework.testcases.AdminTest@6892b3b6]" started-at="2023-07-04T18:04:11 IST" name="tearDown" finished-at="2023-07-04T18:04:11 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumjavaframework.testcases.AdminTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

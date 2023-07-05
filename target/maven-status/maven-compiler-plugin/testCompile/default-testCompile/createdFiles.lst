@@ -1,0 +1,6 @@
+seleniumjavaframework\base\BaseTest.class
+seleniumjavaframework\testcases\LoginTest.class
+seleniumjavaframework\base\Reporting.class
+seleniumjavaframework\testcases\DeleteUserTest.class
+seleniumjavaframework\base\ExcelUtils.class
+seleniumjavaframework\testcases\AdminTest.class

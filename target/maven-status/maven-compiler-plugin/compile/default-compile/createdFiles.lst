@@ -1,0 +1,7 @@
+seleniumjavaframework\utils\WaitFor.class
+seleniumjavaframework\pages\AdminPage.class
+seleniumjavaframework\pages\LoginPage.class
+seleniumjavaframework\utils\ConfigConstants.class
+seleniumjavaframework\pages\HomePage.class
+seleniumjavaframework\utils\ReadProperties.class
+seleniumjavaframework\utils\BrowserFactory.class
