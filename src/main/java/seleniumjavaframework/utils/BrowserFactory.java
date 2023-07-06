@@ -34,13 +34,14 @@ public class BrowserFactory {
 		switch (browsername.toLowerCase()) {
 		
 		case "grid":
+			
 			lopt.set(new ChromeOptions());
 			getOpt().addArguments("--incognito");
 			ldriver.set(new RemoteWebDriver(new URL("http://localhost:4444"), getOpt()));
 			break;
 
 		case "chrome":
-			
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\drivers\\chromedriver.exe");
 			lopt.set(new ChromeOptions());
 			ldriver.set(new ChromeDriver(getOpt().addArguments("--incognito")));
 			break;
