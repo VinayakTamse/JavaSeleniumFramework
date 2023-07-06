@@ -87,12 +87,12 @@
 				<version>3.1.2</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testngdemo.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<systemPropertyVariables>
+					<!--<systemPropertyVariables>
 						<browser>${Browser}</browser>
 						<url>${url}</url>
-					</systemPropertyVariables>
+					</systemPropertyVariables>-->
 				</configuration>
 			</plugin>
 		</plugins>

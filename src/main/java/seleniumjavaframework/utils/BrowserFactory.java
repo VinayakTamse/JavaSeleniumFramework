@@ -19,6 +19,8 @@ public class BrowserFactory {
 	private static ThreadLocal<WebDriver> ldriver = new ThreadLocal<WebDriver>();
 	private static ThreadLocal<ChromeOptions> lopt = new ThreadLocal<ChromeOptions>();
 	
+	WebDriver driver;
+	
 	public static WebDriver getDriver()
 	{
 		return ldriver.get();
@@ -45,6 +47,7 @@ public class BrowserFactory {
 			lopt.set(new ChromeOptions());
 			ldriver.set(new ChromeDriver(getOpt().addArguments("--incognito")));
 			break;
+			
 		case "firefox":
 			ldriver.set(new FirefoxDriver());
 			break;

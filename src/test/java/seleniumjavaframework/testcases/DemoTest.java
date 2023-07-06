@@ -9,6 +9,7 @@ public class DemoTest {
 	@Test
 	public void demo_Test()
 	{
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in/");
