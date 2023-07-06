@@ -158,31 +158,20 @@
                   <a name="Admin_Test">
                   </a> <!-- Admin_Test -->
                   <span class="method-name">Admin_Test</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;Successfully Saved&apos;]&quot;}
-  (Session info: chrome=114.0.5735.134)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //span[text()=&apos;Admin&apos;]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [04280662daf7553712d926431d3a8474, findElement {using=xpath, value=//p[text()=&apos;Successfully Saved&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\C5287553\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57447/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 04280662daf7553712d926431d3a8474
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at seleniumjavaframework.utils.WaitFor.getElement(WaitFor.java:20)
-	at seleniumjavaframework.pages.AdminPage.addUser(AdminPage.java:60)
-	at seleniumjavaframework.testcases.AdminTest.Admin_Test(AdminTest.java:17)
+	at seleniumjavaframework.pages.HomePage.clickOnAdminLink(HomePage.java:31)
+	at seleniumjavaframework.testcases.AdminTest.Admin_Test(AdminTest.java:16)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 35 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -199,8 +188,29 @@ Session ID: 04280662daf7553712d926431d3a8474
                   <a name="DeleteUser_Test">
                   </a> <!-- DeleteUser_Test -->
                   <span class="method-name">DeleteUser_Test</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at seleniumjavaframework.testcases.DeleteUserTest.DeleteUser_Test(DeleteUserTest.java:17)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.134)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e411cca5fb1c85483efef7cb7855ca8, findElement {using=xpath, value=//span[text()=&apos;Admin&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\C5287553\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60234/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e411cca5fb1c85483efef7cb7855ca8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at seleniumjavaframework.utils.WaitFor.getElement(WaitFor.java:20)
+	at seleniumjavaframework.pages.HomePage.clickOnAdminLink(HomePage.java:31)
+	at seleniumjavaframework.testcases.DeleteUserTest.DeleteUser_Test(DeleteUserTest.java:15)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
@@ -219,15 +229,18 @@ Session ID: 04280662daf7553712d926431d3a8474
                   <a name="Login_Logout_Test">
                   </a> <!-- Login_Logout_Test -->
                   <span class="method-name">Login_Logout_Test</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-	at seleniumjavaframework.utils.WaitFor.getElements(WaitFor.java:38)
-	at seleniumjavaframework.pages.HomePage.logout(HomePage.java:47)
-	at seleniumjavaframework.testcases.LoginTest.Login_Logout_Test(LoginTest.java:18)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //span[@class=&apos;oxd-userdropdown-tab&apos;]/img[@alt=&apos;profile picture&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at seleniumjavaframework.utils.WaitFor.getElement(WaitFor.java:20)
+	at seleniumjavaframework.pages.HomePage.verifyLoginStatus(HomePage.java:38)
+	at seleniumjavaframework.testcases.LoginTest.Login_Logout_Test(LoginTest.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
@@ -318,30 +331,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'DeleteUser_Test')
-data.setCell(0, 2, 'seleniumjavaframework.testcases.DeleteUserTest')
-data.setCell(0, 3, 74408);
+data.setCell(0, 1, 'Admin_Test')
+data.setCell(0, 2, 'seleniumjavaframework.testcases.AdminTest')
+data.setCell(0, 3, 1567);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Admin_Test')
-data.setCell(1, 2, 'seleniumjavaframework.testcases.AdminTest')
-data.setCell(1, 3, 55826);
+data.setCell(1, 1, 'DeleteUser_Test')
+data.setCell(1, 2, 'seleniumjavaframework.testcases.DeleteUserTest')
+data.setCell(1, 3, 1312);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Login_Logout_Test')
 data.setCell(2, 2, 'seleniumjavaframework.testcases.LoginTest')
-data.setCell(2, 3, 8935);
+data.setCell(2, 3, 1048);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Verify_Url_Test')
 data.setCell(3, 2, 'seleniumjavaframework.testcases.LoginTest')
-data.setCell(3, 3, 50);
+data.setCell(3, 3, 20);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Verify_Title_Test')
 data.setCell(4, 2, 'seleniumjavaframework.testcases.LoginTest')
-data.setCell(4, 3, 13);
+data.setCell(4, 3, 14);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -374,55 +387,55 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Verify_Url_Test</span>
-                <span class="method-start">14022 ms</span>
+                <span class="method-start">14557 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Verify_Title_Test</span>
-                <span class="method-start">14238 ms</span>
+                <span class="method-start">14770 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Login_Logout_Test</span>
-                <span class="method-start">14258 ms</span>
+                <span class="method-start">14793 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23200 ms</span>
+                <span class="method-start">15865 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">seleniumjavaframework.testcases.AdminTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome, https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)</span>
-                <span class="method-start">23947 ms</span>
+                <span class="method-start">16932 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Admin_Test</span>
-                <span class="method-start">34576 ms</span>
+                <span class="method-start">28094 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">90411 ms</span>
+                <span class="method-start">29673 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">seleniumjavaframework.testcases.DeleteUserTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome, https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)</span>
-                <span class="method-start">91136 ms</span>
+                <span class="method-start">30739 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">DeleteUser_Test</span>
-                <span class="method-start">100430 ms</span>
+                <span class="method-start">42292 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">174843 ms</span>
+                <span class="method-start">43618 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
